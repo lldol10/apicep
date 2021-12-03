@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" type='module' defer></script>
+    <title>A3 - Webservices</title>
+</head>
+<body>
+    <!--INICIO CONTAINER -->
+    <main class="container">
+        <h1 class="title">API - ViaCEP</h1>
+
+        <!--CAMPO DO CEP -->
+        <div class="row">
+            <div class="inputbox">
+                <input type="text" id="cep"  required autofocus="autofocus">
+                <label for="cep">CEP</label>
+            </div>           
+        </div>
+
+        <!--CAMPOS DE ENDEREÇO E BAIRRO -->
+        <div class="row">
+            <div class="inputbox">
+                <input type="text" id="endereco"  required>
+                <label for="endereco">Endereço</label>
+            </div>
+
+            <div class="inputbox">
+                <input type="text" id="bairro"  required>
+                <label for="bairro">Bairro</label>
+            </div>
+        </div>
+
+        <!--CAMPOS DE CIDADE E ESTADO -->
+            <div class="row">
+            <div class="inputbox">
+                <input type="text" id="cidade"  required>
+                <label for="cidade">Cidade</label>
+            </div>
+            <div class="inputbox">
+                <input type="text" id="estado"  required>
+                <label for="estado">Estado</label>
+            </div>
+        </div>
+
+        <!--CAMPO DO BOTÃO -->
+        <div class="row">
+            <button>Salvar</button>
+        </div>
+    </main>
+
+    <!--INICIO DO RODAPE -->
+    <footer>
+        Unimonte / A3 - Webservice
+    </footer>
+</body>
+</html>
